@@ -22,6 +22,6 @@ public class StringReverserTest {
 
     @Test
     public void spaces() {
-        assertEquals("a b c", obj.reverse("a b c"));
+        assertEquals("a b c", obj.reverse("c b a"));
     }
 }
